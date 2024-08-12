@@ -1,11 +1,25 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
 }
+
+// running npx prisma db pull will generate this schema based on mongodb collections
+model Product {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  description_ String   @map("description:")
+  imageUrl     String
+  name         String
+  price        Int
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // we leave the model name as Product so it can be used in other files as a naming convention, but the name is products in mongodb. We use @@map tp tie the data to the mongodb table
+  @@map("products")
+}
+
+// import { PrismaClient } from '@prisma/client'
+// const prisma = new PrismaClient()

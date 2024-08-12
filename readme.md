@@ -49,3 +49,21 @@ Next steps:
 
 More information in our documentation:
 https://pris.ly/d/getting-started
+
+npx prisma db pull
+
+Prisma schema loaded from prisma\schema.prisma
+Environment variables loaded from .env
+Datasource "db": MongoDB database "xxx" at "xxx.draog.mongodb.net"
+
+npx prisma db push 
+
+npx prisma generate
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (4.16.2 | library) to .\node_modules\@prisma\client in 103ms
+You can now start using Prisma Client in your code. Reference: https://pris.ly/d/client
+```
+import { PrismaClient } from '@prisma/client'
+const prisma = new PrismaClient()
