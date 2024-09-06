@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=AaiijESQH5o
-https://youtu.be/AaiijESQH5o?t=4555
-01:16:19
+https://youtu.be/AaiijESQH5o?t=7790
+02:10:00
 
 !! page.tsx currently has errors !!
 

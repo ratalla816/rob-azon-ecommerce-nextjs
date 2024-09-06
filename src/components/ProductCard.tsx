@@ -7,6 +7,7 @@ interface ProductCardProps {
   product: Product;
 }
 
+// Adds a badge to the product card if it's new (created within the last week)
 export default function ProductCard({ product }: ProductCardProps) {
   const isNew =
     Date.now() - new Date(product.createdAt).getTime() <
