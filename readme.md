@@ -75,3 +75,4 @@ import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
 Rob-azon! Logo courtesy of <a href="https://www.textstudio.com/">Font generator</a>
+Favicon courtesy of <a href="https://www.textstudio.com/">Font generator</a>
