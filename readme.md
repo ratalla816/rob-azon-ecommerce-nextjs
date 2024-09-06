@@ -74,4 +74,4 @@ You can now start using Prisma Client in your code. Reference: https://pris.ly/d
 import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
-testing...
+Rob-azon! Logo courtesy of <a href="https://www.textstudio.com/">Font generator</a>
