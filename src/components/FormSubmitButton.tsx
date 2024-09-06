@@ -1,6 +1,7 @@
 "use client";
 
 import { ComponentProps } from "react";
+// Allows the server actions to be executed in the client-side context
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
 
 type FormSubmitButtonProps = {

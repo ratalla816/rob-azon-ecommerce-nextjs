@@ -13,7 +13,7 @@ export default async function CartPage() {
   return (
     <div>
       <h1 className="mb-6 text-3xl font-bold">Shopping Cart</h1>
-      {cart?.items.map((cartItem) => (
+{cart?.items.map((cartItem) => (
         <CartEntry
           cartItem={cartItem}
           key={cartItem.id}

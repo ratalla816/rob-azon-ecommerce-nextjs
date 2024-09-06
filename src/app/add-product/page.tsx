@@ -8,6 +8,7 @@ export const metadata = {
   title: "Add Product - Rob-azon!",
 };
 
+// Server Action function to handle form submission
 async function addProduct(formData: FormData) {
   "use server";
 
