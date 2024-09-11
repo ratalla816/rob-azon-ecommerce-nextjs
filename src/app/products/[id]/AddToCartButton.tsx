@@ -44,7 +44,7 @@ export default function AddToCartButton({
       </button>
       {isPending && <span className="loading loading-spinner loading-md" />}
       {!isPending && success && (
-        <span className="text-success">Added to Cart.</span>
+        <span className="text-success">Added to Cart! Keep buying stuff, it makes you feel good.</span>
       )}
     </div>
   );
