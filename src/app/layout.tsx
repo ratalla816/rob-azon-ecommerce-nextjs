@@ -3,12 +3,13 @@ import Navbar from "./Navbar/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import SessionProvider from "./SessionProvider";
+// import {SessionProvider} from "next-auth/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Flowmazon",
-  description: "We make your wallet cry",
+  title: "Rob-azon!",
+  description: "The more you buy, the better you'll feel!",
 };
 
 export default function RootLayout({
