@@ -19,6 +19,7 @@ const getProduct = cache(async (id: string) => {
   return product;
 });
 
+// Displays product details dynamically
 export async function generateMetadata({
   params: { id },
 }: ProductPageProps): Promise<Metadata> {
@@ -33,6 +34,7 @@ export async function generateMetadata({
   };
 }
 
+// comes from the cached data above
 export default async function ProductPage({
   params: { id },
 }: ProductPageProps) {
