@@ -66,7 +66,6 @@ export async function createCart(): Promise<ShoppingCart> {
     });
 
     // Note: Needs encryption + secure settings in real production app
-    // If user is not signed in cookies allow us to find the cart later and add items to cart
     cookies().set("localCartId", newCart.id);
   }
 
@@ -136,6 +135,8 @@ export async function mergeAnonymousCartIntoUserCart(userId: string) {
       where: { id: localCart.id },
     });
     // throw Error("Transaction failed");
+   // Note: Needs encryption + secure settings in real production app
+    // If user is not signed in cookies allow us to find the cart later and add items to cart
     cookies().set("localCartId", "");
   });
 }
