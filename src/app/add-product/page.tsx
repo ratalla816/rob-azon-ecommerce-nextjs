@@ -28,11 +28,11 @@ async function addProduct(formData: FormData) {
   }
 
   // To test pagination, simulate fetching 50 products
-  for (let i = 0; i < 50; i++) {
-    await prisma.product.create({
-      data: { name, description, imageUrl, price },
-    });
-  }
+  // for (let i = 0; i < 50; i++) {
+  //   await prisma.product.create({
+  //     data: { name, description, imageUrl, price },
+  //   });
+  // }
 
   await prisma.product.create({
     data: { name, description, imageUrl, price },
