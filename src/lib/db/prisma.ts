@@ -6,6 +6,7 @@ const globalForPrisma = globalThis as unknown as {
 
 const prismaBase = globalForPrisma.prisma ?? new PrismaClient();
 
+// Prisma extension enables orphan carts to be automatically deleted from the DB when cookies are deleted
 export const prisma = prismaBase.$extends({
   query: {
     cart: {

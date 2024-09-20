@@ -113,6 +113,7 @@ export async function mergeAnonymousCartIntoUserCart(userId: string) {
               })),
             },
           },
+          // updatedAt: 
         },
       });
     } else {
