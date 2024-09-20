@@ -2,9 +2,13 @@ https://www.youtube.com/watch?v=AaiijESQH5o
 https://youtu.be/AaiijESQH5o?t=18829
 05:14:13
 
-` test `
-
-!! page.tsx currently has errors !!
+This application is deployed with Vercel:
+<br>
+[rob-azon-ecommerce-nextjs-ratalla816s-projects.vercel.app](https://rob-azon-ecommerce-nextjs-ratalla816s-projects.vercel.app/)
+<br>
+[rob-azon-ecommerce-nextjs-git-main-ratalla816s-projects.vercel.app](https://rob-azon-ecommerce-nextjs-git-main-ratalla816s-projects.vercel.app/)
+<br>
+[rob-azon-ecommerce-nextjs-2419f4lpc-ratalla816s-projects.vercel.app](https://rob-azon-ecommerce-nextjs-2419f4lpc-ratalla816s-projects.vercel.app/)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
