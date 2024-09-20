@@ -10,7 +10,7 @@ export function generateMetadata({
   searchParams: { query },
 }: SearchPageProps): Metadata {
   return {
-    title: `Search: ${query} - Rob-azon!`,
+    title: `Search: ${query} - Robazon!`,
   };
 }
 

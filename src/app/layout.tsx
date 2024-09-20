@@ -8,7 +8,7 @@ import SessionProvider from "./SessionProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Rob-azon!",
+  title: "Robazon!",
   description: "The more you buy, the better you'll feel!",
 };
 
